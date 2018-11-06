@@ -20,7 +20,7 @@ services:
     context: ./Path
     dockerfile: Dockerfile
     ports:
-     - "5000:5000"
+     - "5001:5000"
     volumes:
      - .:/code
   redis:
